@@ -65,10 +65,26 @@
     "valarray": "cpp",
     "bitset": "cpp",
     "chrono": "cpp",
-    "typeindex": "cpp"
+    "typeindex": "cpp",
+    "cfenv": "cpp",
+    "cinttypes": "cpp",
+    "codecvt": "cpp",
+    "complex": "cpp",
+    "condition_variable": "cpp",
+    "csetjmp": "cpp",
+    "csignal": "cpp",
+    "cuchar": "cpp",
+    "map": "cpp",
+    "ratio": "cpp",
+    "future": "cpp",
+    "iomanip": "cpp",
+    "mutex": "cpp",
+    "scoped_allocator": "cpp",
+    "shared_mutex": "cpp",
+    "thread": "cpp"
   },
   "code-runner.clearPreviousOutput": false,
-  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.intelliSenseEngine": "default",
   "C_Cpp.intelliSenseEngineFallback": "enabled",
   "C_Cpp.errorSquiggles": "enabled"
 }
