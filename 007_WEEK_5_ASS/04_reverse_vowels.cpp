@@ -1,7 +1,6 @@
 using namespace std;
 #include <iostream>
 #include <string>
-#include <vector>
 
 bool isVowel(char ch) {
     ch = tolower(ch);
@@ -27,7 +26,7 @@ string reverseOnlyVowels(string str) {
 }
 
 int main() {
-    string str = "hello";
+    // string str = "hello";
     string str = "leetcode";
 
     string newStr = reverseOnlyVowels(str);
