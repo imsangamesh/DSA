@@ -24,4 +24,11 @@ int main() {
     string needle = "sad";
 
     int ans = indexOfFirstOccInString(heystack, needle);
+    cout << "Answer is: " << ans;
 }
+
+/*
+ * 2 loops ( (n-m+1) | m*n )
+ ! O ( m*n )
+
+ */
