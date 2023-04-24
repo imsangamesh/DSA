@@ -78,8 +78,7 @@ int main() {
 
     //! ------------------------------------- SORT 0s & 1s
     // vector<int> zrr{0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1};
-    // int s = 0, i = 0;
-    // int e = zrr.size() - 1;
+    // int s = 0, i = 0, e = zrr.size() - 1;
 
     // //* here we are traversing the array with i and checking whether
     // //* it is 1 or 0.

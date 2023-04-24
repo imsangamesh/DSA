@@ -13,9 +13,7 @@ bool linearSearch(int arr[], int n, int key) {
 int findMin(int arr[], int n) {
     int min = INT_MAX;
     for (int i = 0; i < n; i++) {
-        if (arr[i] < min) {
-            min = arr[i];
-        }
+        if (arr[i] < min) min = arr[i];
     }
 
     return min;
@@ -24,9 +22,7 @@ int findMin(int arr[], int n) {
 int findMax(int arr[], int n) {
     int max = INT_MIN;
     for (int i = 0; i < n; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
-        }
+        if (arr[i] > max) max = arr[i];
     }
 
     return max;
