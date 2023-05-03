@@ -1,0 +1,49 @@
+ARRAY ASSIGNMENTS
+
+-------------------------------------------------------------------------------------------------
+3. FIND DUPLICATE NO
+
+- making the elements -ve  |  arr MODIFIED
+
+here we're to their respective 'index' and making it -ve - which
+indicates as 'visited', soo for the duplicate no. we'll go to same index
+twice to mark it as 'visited' & there we'll get the duplicate no.
+
+
+- sending the no.s to their indexes  |  arr MODIFIED
+
+here we're sending the no.s to their respective 'indexes', only till we
+encounter the situation -- where we see the respective no. in it's
+position already. so this only means, we're visiting this for 2nd time.
+so this is the answer, soo we've found the answer, so we stop. and
+answer is at 1st index.
+
+-------------------------------------------------------------------------------------------------
+4. FINDING MISSING ELMS in array of DUPLICATES
+
+--------------
+- negative marking & tracing which is not -ve
+
+here we're marking the respective indexed no.s -ve and after marking all
+no.s check which no. is not marked as negative. then that index is
+missing, coz in case if we had that 'index' in array, we'd be marking
+that index as 'visited'. so now it's not marked--which indicates, it is
+missing.
+
+--------------
+- sending no.s to their indexes & tracing
+
+here we're sending all the no.s to their respective indexes.
+we're also looping till a particular no has reached it's respective
+'index'. soo we're using 'while' loop and only incrementing 'i' value
+only when a particular no. is it's respective index.
+
+-------------------------------------------------------------------------------------------------
+5. FIND FIRST REPEATING ELM
+
+-------------- NIEVE
+looping 2 loops and checking if the no. has looped in the future 
+
+--------------
+storing the frequencies of each no. and checking which no. has the
+frequency greater than 1, checking from the left index.
