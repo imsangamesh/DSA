@@ -8,9 +8,9 @@ int findPivotInRotated(vector<int> arr) {
     while (s <= e) {
         int m = s + (e - s) / 2;
 
-        if (s == e) {
-            return s;
-        } else if (arr[m] > arr[m + 1] && m <= e) {
+        if (s == e) return s;
+
+        if (arr[m] > arr[m + 1] && m <= e) {
             return m;
         } else if (arr[m - 1] > arr[m] && m - 1 >= s) {
             return m - 1;

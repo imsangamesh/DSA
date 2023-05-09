@@ -1,13 +1,10 @@
-types of binary search:
+types of binary search questions:
 
 1. classical binary search
 
 2. - search space wale predegate function 
-   - painter partition
-   - aggressive cow
-   - eko spoz 
-   - parata/roti spoz 
-   - book allocation 
+   - painter partition - aggressive cow
+   - eko spoz - parata/roti spoz - book allocation 
    here we'll know that ans lies between this sorted range
 
 

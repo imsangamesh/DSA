@@ -133,7 +133,7 @@ int main() {
     // cout << "Index is: " << ans << endl;
     // cout << "Answer is: " << arr[ans] << endl;
 
-    vector<int> arr = {1, 2, 3, 5, 7, 9, 100};
+    // vector<int> arr = {1, 2, 3, 5, 7, 9, 100};
     // vector<int> arr = {10, 9, 7, 6, 5};
 
     // int ans = findPivot(arr);
