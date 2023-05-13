@@ -79,7 +79,7 @@ vector<bool> sieveOptimisationOuterLoop(int n) {
     return arr;
 }
 
-vector<bool> setmentSieve(int l, int r) {
+vector<bool> segmentSieve(int l, int r) {
     //* get me prime array, I will use it to mark Segment Sieve
     vector<bool> sieve = sieveOptimisationOuterLoop(sqrt(r));
     vector<int> basePrimes;
