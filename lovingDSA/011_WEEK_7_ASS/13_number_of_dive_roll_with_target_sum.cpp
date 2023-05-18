@@ -24,6 +24,8 @@ int numRollsToTarget(int n, int k, int target) {
 //! SC:  N   ( max_depth )
 
 int main() {
-    // int ans =
-    // cout << "\nAnswer is: " << ans << "\n\n";
+    int n = 2, k = 6, target = 7;
+
+    int ans = numRollsToTarget(n, k, target);
+    cout << "\nAnswer is: " << ans << "\n\n";
 }
