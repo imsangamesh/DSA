@@ -22,11 +22,8 @@ int main() {
   while (l < h) {
     if (arr[l] < 0) {
       l++;
-    } else if (arr[h] >= 0) {
-      h--;
     } else {
       swap(arr[l], arr[h]);
-      l++;
       h--;
     }
   }
